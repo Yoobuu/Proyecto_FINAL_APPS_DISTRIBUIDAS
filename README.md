@@ -15,10 +15,9 @@ La aplicación sigue las especificaciones del enunciado (sin base de datos, usan
 - Puertos `8080` y `8081` libres en la máquina local.
 
 ### Levantar servicios con Docker Compose
-Desde la carpeta raíz `apps_distribuidas_deber3/`:
+Desde la carpeta raíz donde se encuentre el archivo docker-compose.yml, ejecutar en consola:
 
 ```powershell
-cd "c:\Users\andre\Desktop\Aplicaciones Distribuidas\Deber 4\apps_distribuidas_deber3\apps_distribuidas_deber3"
 docker compose up --build
 ```
 
