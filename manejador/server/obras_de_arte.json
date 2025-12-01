@@ -1,0 +1,72 @@
+[
+  {
+    "id": "mona-lisa",
+    "titulo": "La Mona Lisa",
+    "artista": "Leonardo da Vinci",
+    "anio": 1503,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/330px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "precioBase": 200000000,
+    "incrementoMinimo": 100000,
+    "duracion": 60
+  },
+  {
+    "id": "dance-class",
+    "titulo": "La Clase de Danza",
+    "artista": "Edgar Degas",
+    "anio": 1874,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Edgar_Degas_The_Dance_Class.jpg",
+    "precioBase": 10000000,
+    "incrementoMinimo": 100000,
+    "duracion": 75
+  },
+  {
+    "id": "absenta",
+    "titulo": "El Ajenjo",
+    "artista": "Edgar Degas",
+    "anio": 1876,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg",
+    "precioBase": 19000000,
+    "incrementoMinimo": 80000,
+    "duracion": 70
+  },
+  {
+    "id": "woman-in-hat",
+    "titulo": "Retrato de Mujer con Sombrero",
+    "artista": "Amedeo Modigliani",
+    "anio": 1918,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Modigliani_Amedeo_14.jpg",
+    "precioBase": 67000000,
+    "incrementoMinimo": 120000,
+    "duracion": 90
+  },
+  {
+    "id": "woman-red-hair",
+    "titulo": "Mujer de Cabello Rojo",
+    "artista": "Amedeo Modigliani",
+    "anio": 1919,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Amedeo_Modigliani_-_Woman_with_Red_Hair_%281917%29.jpg",
+    "precioBase": 120000000,
+    "incrementoMinimo": 150000,
+    "duracion": 85
+  },
+  {
+    "id": "dora-maar",
+    "titulo": "Retrato de Dora Maar",
+    "artista": "Pablo Picasso",
+    "anio": 1937,
+    "imagen": "https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvNWVmNzEzNDIzMzRkNi5qcGciLCJyZXNpemUsMTUwMHxmb3JtYXQsd2VicCJdfQ.8Kwnf49UPs3PWjVmsYBMC8vtJYOAkHKhbALSH6PgdjA.webp",
+    "precioBase": 90000000,
+    "incrementoMinimo": 110000,
+    "duracion": 80
+  },
+  {
+    "id": "self-portrait",
+    "titulo": "Autorretrato",
+    "artista": "Vincent van Gogh",
+    "anio": 1889,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg/330px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg",
+    "precioBase": 100000000,
+    "incrementoMinimo": 95000,
+    "duracion": 100
+  }
+]

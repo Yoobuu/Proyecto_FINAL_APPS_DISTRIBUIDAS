@@ -1,0 +1,28 @@
+services:
+  manejador:
+    build:
+      context: ./manejador
+      dockerfile: Dockerfile
+    container_name: manejador-service
+    environment:
+      - POSTORES_URL=http://postores:8081
+      - WS_URL=http://postores:8081
+      - PORT=8080
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+  postores:
+    build:
+      context: ./postores
+      dockerfile: Dockerfile
+    container_name: postores-service
+    environment:
+      - MANEJADOR_URL=http://manejador:8080
+      - WS_URL=http://postores:8081
+      - PORT=8081
+    ports:
+      - "8081:8081"
+    depends_on:
+      - manejador
+    restart: unless-stopped
